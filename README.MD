@@ -27,11 +27,10 @@
 
 ## Usage
 
-It will automatically changes the `body`, `side`, `bdo` directions
+It will automatically show you a share button link.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT license](LICENSE).  
-Copyright (c) KoLiBer (koliberr136a1@gmail.com)
+The MIT License (MIT). Please see [License File](https://github.com/coroo/docsify-chart/blob/master/LICENSE)
