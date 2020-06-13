@@ -1,15 +1,15 @@
 :root {
     --base-font-size    : 14px;
-    --theme-color       : #f15c80;
+    --theme-color       : #009688;
     
     /* Cover ============================================================================= */
     --cover-color                                      : #999;
-    --cover-blockquote-color                           : #ff6f69;
+    --cover-blockquote-color                           : #4CAF50;
     --blockquote-color                                 : #555;
     --cover-heading-color                              : #777;
     --cover-blockquote-font-size                       : var(--font-size-l);
 
-    --cover-button-background--hover                   : #f15c80;
+    --cover-button-background--hover                   : #009688;
     --cover-button-color--hover                        : #FFF;
     --cover-button-primary-background--hover           : #d8758a;
     --cover-button-padding                             : 1em 4rem;
@@ -42,18 +42,18 @@
     --code-theme-selector               : #eeeeee;
     --code-theme-text                   : #ffffff;
     --code-theme-selection              : #91e8e1;
-    --code-theme-keyword                : #ff6f69;
+    --code-theme-keyword                : #4CAF50;
     --code-font-size                    : 12px;
 
-    --heading-h1-color                  : #f15c80;
+    --heading-h1-color                  : #009688;
     /* --heading-h2-color                  : #c82829; */
-    --heading-h3-color                  : #ff6f69;
+    --heading-h3-color                  : #4CAF50;
     --heading-font-weight               : 600;
     --heading-h1-font-family            : -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     --heading-h1-font-size              : 2em;
 
     /* Links */
-    --link-color                        : #f15c80;
+    --link-color                        : #009688;
     --link-color--hover                 : purple;
     --link-text-decoration              : underline;
 

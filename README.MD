@@ -47,7 +47,7 @@ Available Parameters : `url`.
 
 ```
 facebook: {
-    url: "google.com"
+    url: "https://coroo.github.io/docsify-share"
 },
 ```
 
@@ -67,7 +67,7 @@ Available Parameters : `url`, `title`.
 
 ```
 reddit: {
-    url: "google.com",
+    url: "https://coroo.github.io/docsify-share",
     title: "my custom title",
 },
 ```
@@ -88,7 +88,7 @@ Available Parameters : `url`, `title`.
 
 ```
 twitter: {
-    url: "google.com",
+    url: "https://coroo.github.io/docsify-share",
     title: "my custom title",
 },
 ```
@@ -109,7 +109,7 @@ Available Parameters : `url`.
 
 ```
 linkedin: {
-    url: "google.com"
+    url: "https://coroo.github.io/docsify-share"
 },
 ```
 
@@ -129,7 +129,7 @@ Available Parameters : `url`, `title`.
 
 ```
 whatsapp: {
-    url: "google.com",
+    url: "https://coroo.github.io/docsify-share",
     title: "my custom title",
 },
 ```
@@ -150,7 +150,7 @@ Available Parameters : `url`, `title`.
 
 ```
 telegram: {
-    url: "google.com",
+    url: "https://coroo.github.io/docsify-share",
     title: "my custom title",
 },
 ```
