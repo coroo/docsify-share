@@ -1,33 +1,10 @@
-# docsify-share
+# Docsify Share
 
-## Install
+<img src="https://coroo.github.io/docsify-share/assets/img/logo.svg" width="50px"> Share your documentation easily.
 
-1. Configure docsify-share:
+## Installation & Documentation
 
-    ```html
-    <script>
-        window.$docsify = {
-            share: {
-                reddit: true,
-                linkedin: true,
-                facebook: true,
-                twitter: true,
-                whatsapp: true,
-                telegram: true,
-            }
-        };
-    </script>
-    ```
-
-2. Insert script into docsify document:
-
-    ```html
-    <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
-    ```
-
-## Usage
-
-It will automatically show you a share button link.
+:mortar_board: For better experiences, we moved documentation to : __https://coroo.github.io/docsify-share/__
 
 ---
 
