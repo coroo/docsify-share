@@ -172,9 +172,9 @@ telegram: {
 
 # Support Us
 
-Your support means a lot to me
-
 <a href="https://github.com/coroo/docsify-share/stargazers"><img src="https://img.shields.io/github/stars/coroo/docsify-share?style=social" style="margin-left:0;box-shadow:none;border-radius:0;height:24px"></a>
+
+Your support means a lot to us
 
 # License
 
