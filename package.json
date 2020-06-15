@@ -1,6 +1,6 @@
 {
   "name": "docsify-share",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Docsify Share library",
   "main": "build/index.js",
   "types": "build/index.d.js",
@@ -19,12 +19,11 @@
   },
   "keywords": [
     "TypeScript",
-    "docsify",
-    "share",
-    "bidi",
-    "bdo"
+    "Docsify",
+    "Share",
+    "Documentation"
   ],
-  "author": "KoLiBer",
+  "author": "coroo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coroo/docsify-share/issues"
