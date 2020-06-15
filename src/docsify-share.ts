@@ -86,44 +86,46 @@ export const install = (hook: any, vm: any) => {
         '</div>'
     ].join('');
 
-    if (vm.config.share.options.theme != undefined) {
-        if (vm.config.share.options.theme == 'open-window') {
-            var footer = [
-                fontAwesome,
-                '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-open-window.css">',
-                '<div class="share-button">',
-                  '<div class="share-button__back">',
-                    reddit,
-                    linkedin,
-                    facebook,
-                    twitter,
-                    whatsapp,
-                    telegram,
-                  '</div>',
-                  '<div class="share-button__front">',
-                    '<p class="share-button__text"><span class="fa fa-share-alt"></span></p>',
-                  '</div>',
-                '</div>'
-            ].join('');
-        } else if (vm.config.share.options.theme == 'slide-bar') {
-            var footer = [
-                fontAwesome,
-                '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-slide-bar.css">',
-                '<button class="btn-share">',
-                    reddit,
-                    linkedin,
-                    facebook,
-                    twitter,
-                    whatsapp,
-                    telegram,
-                    '<span class="btn-fab"><span class="fa fa-share-alt"></span>',
-                '</button>'
-            ].join('');
+    if (vm.config.share.options != undefined) {
+        if (vm.config.share.options.theme != undefined) {
+            if (vm.config.share.options.theme == 'open-window') {
+                var footer = [
+                    fontAwesome,
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-open-window.css">',
+                    '<div class="share-button">',
+                    '<div class="share-button__back">',
+                        reddit,
+                        linkedin,
+                        facebook,
+                        twitter,
+                        whatsapp,
+                        telegram,
+                    '</div>',
+                    '<div class="share-button__front">',
+                        '<p class="share-button__text"><span class="fa fa-share-alt"></span></p>',
+                    '</div>',
+                    '</div>'
+                ].join('');
+            } else if (vm.config.share.options.theme == 'slide-bar') {
+                var footer = [
+                    fontAwesome,
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-slide-bar.css">',
+                    '<button class="btn-share">',
+                        reddit,
+                        linkedin,
+                        facebook,
+                        twitter,
+                        whatsapp,
+                        telegram,
+                        '<span class="btn-fab"><span class="fa fa-share-alt"></span>',
+                    '</button>'
+                ].join('');
+            }
         }
-    }
 
-    if (vm.config.share.options.color != undefined) {
-        themeColor(vm.config.share);
+        if (vm.config.share.options.color != undefined) {
+            themeColor(vm.config.share);
+        }
     }
     
     const config = Object.assign(
