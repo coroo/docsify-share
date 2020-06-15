@@ -12,11 +12,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light">
   <link rel="stylesheet alternative" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
   <link rel="stylesheet" href="assets/css/main-custom.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
+    const urlParams = new URLSearchParams(window.location.href);
     window.$docsify = {
       name: 'Docsify Share',
       repo: 'coroo/docsify-share',
@@ -31,6 +31,10 @@
         '/',            // => /README.md
       ],
       share: {
+          options: {
+            theme: urlParams.get('theme') ?? '',
+            color: urlParams.get('color') != null ? '#' + urlParams.get('color') : ''
+          },
           reddit: true,
           linkedin: true,
           facebook: true,
@@ -47,6 +51,6 @@
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+  <script src="//unpkg.com/docsify-share@0.1.1/build/index.min.js"></script>
 </body>
 </html>

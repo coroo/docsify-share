@@ -168,6 +168,75 @@ telegram: {
 },
 ```
 
+# Configuration
+
+You can do some advanced configuration like choose themes or color as you needed.
+
+## Themes
+
+If you dont like the default design, we provide some another themes for you:
+
+### Open Window
+
+<a class="learn-more btn-learn" target="_blank" href="https://coroo.github.io/docsify-share/#/?id=open-window&theme=open-window">
+    <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+    </span>
+    <span class="button-text"><i>Try Me</i></span>
+</a>
+
+How to use:
+
+```
+options: {
+    theme: 'open-window'
+},
+```
+
+### Slide Bar
+
+<a class="learn-more btn-learn" target="_blank" href="https://coroo.github.io/docsify-share/#/?id=slide-bar&theme=slide-bar">
+    <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+    </span>
+    <span class="button-text"><i>Try Me</i></span>
+</a>
+
+How to use:
+
+```
+options: {
+    theme: 'slide-bar'
+},
+```
+
+### Default
+
+<a class="learn-more btn-learn" target="_blank" href="https://coroo.github.io/docsify-share/#/?id=default">
+    <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+    </span>
+    <span class="button-text"><i>Back to Me</i></span>
+</a>
+
+## Colors
+
+By default, we use our preference color to set the button color, but again, if you dont like the default design, we provide a way to add your color:
+
+How to use:
+
+```
+options: {
+    color: '#F44336'
+},
+```
+<a class="learn-more btn-learn" target="_blank" href="https://coroo.github.io/docsify-share/#/?id=colors&theme=open-window&color=F44336">
+    <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+    </span>
+    <span class="button-text"><i>Try Me</i></span>
+</a>
+
 ---
 
 # Support Us
