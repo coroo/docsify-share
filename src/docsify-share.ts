@@ -26,6 +26,14 @@ async function themeColor(dsConfig): Promise<void> {
                     item.style.background = await dsConfig.options.color;
                 }
             }
+        } else if (dsConfig.options.theme == 'flip-it') {
+            let change_background = await document.getElementsByClassName('btn-fab') as HTMLCollectionOf<HTMLElement>;
+
+            if (change_background.length != 0) {
+                for (let item of Array.from(change_background)) {
+                    item.style.background = await dsConfig.options.color;
+                }
+            }
         }
     }
 
@@ -117,8 +125,24 @@ export const install = (hook: any, vm: any) => {
                         twitter,
                         whatsapp,
                         telegram,
-                        '<span class="btn-fab"><span class="fa fa-share-alt"></span>',
+                        '<span class="btn-fab"><span class="fa fa-share-alt"></span></span>',
                     '</button>'
+                ].join('');
+            } else if (vm.config.share.options.theme == 'flip-it') {
+                var footer = [
+                    fontAwesome,
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-flip-it.css">',
+                    '<div class="fab-container">',
+                        '<div class="btn-fab"><span class="fa fa-share-alt"></span></div>',
+                        '<div class="back">',
+                        reddit,
+                        linkedin,
+                        facebook,
+                        twitter,
+                        whatsapp,
+                        telegram,
+                    '</div>',
+                    '</div>'
                 ].join('');
             }
         }
