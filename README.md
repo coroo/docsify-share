@@ -1,7 +1,7 @@
 # Docsify Share <img src="https://coroo.github.io/docsify-share/assets/img/logo.svg" width="30px">
-> Share your documentation easily | See [:blue_book:Documentation Page](https://coroo.github.io/docsify-share/)
+> Share your documentation easily | See [:blue_book: Documentation Page](https://coroo.github.io/docsify-share/)
 
-[![Latest Version on Packagist](https://img.shields.io/npm/v/docsify-share?color=03A9F4)](https://www.npmjs.com/package/docsify-share)
+[![Latest Version on npmjs](https://img.shields.io/npm/v/docsify-share?color=03A9F4)](https://www.npmjs.com/package/docsify-share)
 [![State Status](https://img.shields.io/github/deployments/coroo/docsify-share/github-pages)](https://www.npmjs.com/package/docsify-share)
 [![Language](https://img.shields.io/npm/types/docsify-share?label=lang&color=009688)](https://github.com/coroo/docsify-share)
 [![License](https://img.shields.io/npm/l/docsify-share?color=112233)](https://github.com/coroo/docsify-share/blob/master/LICENSE)
