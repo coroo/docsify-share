@@ -82,7 +82,7 @@ export const install = (hook: any, vm: any) => {
 
     var footer = [
         fontAwesome,
-        '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share.css">',
+        '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share.min.css">',
         '<div class="fabs">',
         reddit,
         linkedin,
@@ -99,7 +99,7 @@ export const install = (hook: any, vm: any) => {
             if (vm.config.share.options.theme == 'open-window') {
                 var footer = [
                     fontAwesome,
-                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-open-window.css">',
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-open-window.min.css">',
                     '<div class="share-button">',
                     '<div class="share-button__back">',
                         reddit,
@@ -117,7 +117,7 @@ export const install = (hook: any, vm: any) => {
             } else if (vm.config.share.options.theme == 'slide-bar') {
                 var footer = [
                     fontAwesome,
-                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-slide-bar.css">',
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-slide-bar.min.css">',
                     '<button class="btn-share">',
                         reddit,
                         linkedin,
@@ -131,7 +131,7 @@ export const install = (hook: any, vm: any) => {
             } else if (vm.config.share.options.theme == 'flip-it') {
                 var footer = [
                     fontAwesome,
-                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-flip-it.css">',
+                    '<link rel="stylesheet" href="https://unpkg.com/mytest-share/assets/css/docsify-share-flip-it.min.css">',
                     '<div class="fab-container">',
                         '<div class="btn-fab"><span class="fa fa-share-alt"></span></div>',
                         '<div class="back">',
