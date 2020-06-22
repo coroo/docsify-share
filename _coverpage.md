@@ -14,7 +14,7 @@
 
 Within this plugin, we hope you can have your own sharing social media button easily e.g facebook, twitter and many more.
 
-[GitHub](https://github.com/coroo/nova-chartjs/)
+[GitHub](https://github.com/coroo/docsify-share/)
 [Get Started](#getting-started)
 
 ![color](#EFEFEF)
